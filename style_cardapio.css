@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Orbitron:wght@400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  :root{
+    --red: red;
+    --white: #fff ;
+    --black: #000;
+  }
+
+  body{
+    color: var(--black);
+    background-color: var(--white);
+  }
+
+  .titulo-cardapio, h1{
+    padding: 0.1em;
+    font-size: 3rem;
+   background-color: rgba(2, 0, 0, 0.76);
+   border-radius: 15px;
+   float: left;
+   color: var(--white);
+   text-decoration: underline red;
+  }
+  .cabeça-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    background-image: url("img/lanches/combos.jpg");
+    background-position: 25% 75%; 
+    background-repeat:   repeat-x; 
+    background-size: cover;
+  }
+  .nav-menu{
+   display: flex;
+   justify-content: center;
+   margin-top: 3em;
+  }
+.nav-item-link, a{
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 0.3em;
+    background-color: var(--black);
+    border-radius: 30px;
+    color: var(--white);
+}
+.title, h1{
+    display: flex;
+    justify-content: center;
+}
+.cardapio, section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+  .img-lanche{
+    width: 10em;
+    border-radius: 20px;
+    /* justify-content: space-around; */
+    padding: 1em;
+  }
+
+.cardapio-info, div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+.titulos-lanche, h3, h4{
+    width: 10em;
+    text-align: center;
+  }
+
+.descricao-lanche{
+    text-align: center;
+        width: 15em;
+    }
+
+.btn-comprar{
+    padding: 0.5em;
+    background: var(--red);
+    font-weight: 400;
+    transition: all o.5s;
+    color: var(--white);
+    border-radius: 10px;
+}

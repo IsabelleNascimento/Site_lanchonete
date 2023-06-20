@@ -123,6 +123,38 @@
     border-radius: 10px;
   }
 
+  .logos{
+    background-color: var(--black);
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+  
+.contato{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulo-contato, h3{
+ text-align: center;
+}
+.logos-contato{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-logo-contato{
+  padding: 1em;
+}
+.img-logo-contato:hover{
+  background-color: #00000050;
+  border-radius: 3px;
+  text-decoration: underline red;
+}
+.nav-item-link,a {
+  text-decoration: underline red;
+}
+
   .btn-text:hover {
     background-color: var(--black);
   }
